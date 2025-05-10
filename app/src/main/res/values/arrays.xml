@@ -1,0 +1,11 @@
+<resources>
+    <array name="brushing_chart_colors">
+        <item>@android:color/holo_red_light</item>     <!-- Sunday -->
+        <item>@android:color/holo_orange_light</item>  <!-- Monday -->
+        <item>@android:color/holo_green_light</item>   <!-- Tuesday -->
+        <item>@android:color/holo_blue_light</item>    <!-- Wednesday -->
+        <item>@android:color/holo_purple</item>        <!-- Thursday -->
+        <item>@android:color/darker_gray</item>        <!-- Friday -->
+        <item>@android:color/holo_blue_dark</item>     <!-- Saturday -->
+    </array>
+</resources>

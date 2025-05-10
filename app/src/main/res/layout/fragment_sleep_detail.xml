@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_sleep_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Total sleep hours this week -->
+        <TextView
+            android:id="@+id/tv_total_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 hr this week"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <!-- Average per night -->
+        <TextView
+            android:id="@+id/tv_average_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Avg. 0 hr/night"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <!-- Progress toward weekly sleep goal -->
+        <ProgressBar
+            android:id="@+id/progress_sleep"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="8dp"
+            android:progressTint="@color/yellow"
+            android:progress="0"/>
+
+        <TextView
+            android:id="@+id/tv_sleep_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="0% of goal"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <!-- Bar chart of hours per day -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart_sleep_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Best night -->
+        <TextView
+            android:id="@+id/tv_best_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Best Night: —"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <!-- List of individual sleep entries -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_sleep_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:overScrollMode="never"/>
+
+    </LinearLayout>
+</ScrollView>

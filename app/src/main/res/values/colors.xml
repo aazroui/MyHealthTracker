@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core palette -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_primary">#E53935</color>
+    <color name="red_secondary">#C62828</color>
+    <color name="red_dark">#B71C1C</color>
+    <color name="red_light">#EF5350</color>
+
+    <color name="dark_gray">#121212</color>
+    <color name="medium_gray">#2C2C2C</color>
+    <color name="light_gray">#3D3D3D</color>
+
+    <color name="gradient_red_start">#E53935</color>
+    <color name="gradient_red_end">#B71C1C</color>
+
+    <color name="gradient_dark_start">#1F1F1F</color>
+    <color name="gradient_dark_end">#000000</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CCCCCC</color>
+    <color name="text_hint">#888888</color>
+
+    <!-- Aliases for layout references -->
+    <color name="colorBackground">@color/white</color>
+    <color name="colorPrimary">@color/red_primary</color>
+    <color name="colorText">@color/text_primary</color>
+
+    <color name="cyan">#00FFFF</color>
+    <color name="yellow">#FFFF00</color>
+
+</resources>

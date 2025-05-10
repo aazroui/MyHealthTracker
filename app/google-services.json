@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "301313257531",
+    "firebase_url": "https://myhealth-tracker-default-rtdb.firebaseio.com",
+    "project_id": "myhealth-tracker",
+    "storage_bucket": "myhealth-tracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301313257531:android:7e50499f356aba54a2ac1e",
+        "android_client_info": {
+          "package_name": "com.example.myhealthtrackerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Fgdu5feFWfal1tW1a8fX69bDTEh7zFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

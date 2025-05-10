@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">MyHealth Tracker</string>
+    
+    <!-- Auth Screens -->
+    <string name="welcome">Welcome to MyHealth Tracker</string>
+    <string name="welcome_desc">Track your health progress and achieve your goals!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_message">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="app_logo">App Logo</string>
+    <string name="terms_and_conditions">I agree to the Terms and Conditions</string>
+    <string name="submit">Submit</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_sent">Password reset email has been sent.</string>
+    <string name="already_have_account">Already have an account? Log In</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="meals">Meals</string>
+    <string name="water">Water</string>
+    <string name="workout">Workout</string>
+    <string name="sleep">Sleep</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="weekly_summary">Weekly Summary</string>
+    <string name="today_stats">Today\'s Statistics</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log Out</string>
+    <string name="profile_image">Profile Image</string>
+
+
+    <!-- Meal Tracking -->
+    <string name="meal_name">Meal Name</string>
+    <string name="calories">Calories</string>
+    <string name="protein">Protein (g)</string>
+    <string name="carbs">Carbs (g)</string>
+    <string name="fats">Fats (g)</string>
+    <string name="sugars">Sugars (g)</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="meals_overview">Meals Overview</string>
+    <string name="total_calories">Total Calories: %d</string>
+    <string name="macro_breakdown">Macro Breakdown</string>
+    
+    <!-- Water Tracking -->
+    <string name="water_cups">Cups</string>
+    <string name="water_ml">Milliliters (ml)</string>
+    <string name="add_water">Add Water</string>
+    <string name="water_overview">Water Overview</string>
+    <string name="total_water">Total Water: %s</string>
+    
+    <!-- Workout Tracking -->
+    <string name="workout_type">Workout Type</string>
+    <string name="workout_duration">Duration (minutes)</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="workout_overview">Workout Overview</string>
+    <string name="total_workout">Total Workout: %d minutes</string>
+    
+    <!-- Sleep Tracking -->
+    <string name="sleep_hours">Hours Slept</string>
+    <string name="add_sleep">Add Sleep</string>
+    <string name="sleep_overview">Sleep Overview</string>
+    <string name="total_sleep">Total Sleep: %.1f hours</string>
+
+    <string name="total_sleep_this_week">%1$.0f hr this week</string>
+    <string name="avg_sleep_per_night">Avg. %1$.1f hr/night</string>
+    <string name="sleep_percent_of_goal">%1$d%% of goal</string>
+    <string name="best_night">Best Night: %1$s (%2$.1f hr)</string>
+
+
+    <!-- Weekly Summary -->
+    <string name="weekly_trends">Weekly Trends</string>
+    <string name="weekly_calories">Weekly Calories</string>
+    <string name="weekly_water">Weekly Water Intake</string>
+    <string name="weekly_workout">Weekly Workout Time</string>
+    <string name="weekly_sleep">Weekly Sleep Hours</string>
+    <string name="weekly_feedback">Weekly Feedback</string>
+    
+    <!-- Validation -->
+    <string name="field_required">This field is required</string>
+    <string name="email_invalid">Please enter a valid email</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    <string name="terms_not_accepted">Please accept the terms and conditions</string>
+
+    <string name="weekly_macro_nutrients">Weekly Macro Nutrients (g)</string>
+    <string name="day">Day</string>
+    <string name="most_hydrated_day">Most Hydrated Day: --</string>
+    <string name="total_cups">Total Cups: --</string>
+    <string name="total_milliliters">Total Milliliters: --</string>
+
+
+
+    <!-- Motivational Quotes -->
+    <string-array name="motivational_quotes">
+        <item>The only bad workout is the one that didn\'t happen.</item>
+        <item>Strive for progress, not perfection.</item>
+        <item>Your health is an investment, not an expense.</item>
+        <item>Take care of your body. It\'s the only place you have to live.</item>
+        <item>The greatest wealth is health.</item>
+        <item>The difference between try and triumph is a little umph.</item>
+        <item>You don\'t have to be extreme, just consistent.</item>
+        <item>Small changes can make big differences.</item>
+        <item>Your body can stand almost anything. It\'s your mind you have to convince.</item>
+        <item>The harder you work for something, the greater you\'ll feel when you achieve it.</item>
+    </string-array>
+
+    <string-array name="workout_types">
+        <item>Cardio</item>
+        <item>Strength</item>
+        <item>Flexibility</item>
+        <item>Balance</item>
+    </string-array>
+
+</resources>

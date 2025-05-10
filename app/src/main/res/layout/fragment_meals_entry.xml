@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etMealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meal name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etMealCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calories"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMealProtein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Protein (g)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMealCarbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Carbs (g)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMealFats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fats (g)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMealSugars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sugars (g)"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnMealSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>

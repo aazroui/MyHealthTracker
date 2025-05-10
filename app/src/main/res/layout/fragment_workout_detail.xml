@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_workout_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    android:fillViewport="true"
+    tools:context=".fragments.WorkoutDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Total minutes this week -->
+        <TextView
+            android:id="@+id/tv_total_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 min this week"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <!-- Progress toward weekly goal -->
+        <ProgressBar
+            android:id="@+id/progress_workout"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="8dp"
+            android:progressTint="@color/red_primary"
+            android:progress="0"/>
+
+        <TextView
+            android:id="@+id/tv_progress_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="0% of goal"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <!-- Bar chart of minutes per day -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart_workout_detail"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Most active day -->
+        <TextView
+            android:id="@+id/tv_most_active_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Most Active Day: —"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <!-- List of individual sessions -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_workout_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:overScrollMode="never"/>
+
+    </LinearLayout>
+</ScrollView>
